@@ -10,7 +10,7 @@
         media="(prefers-color-scheme: dark)"
     />
     <source
-        srcset="https://github-readme-stats.vercel.app/api?username=arg387&show_icons=true&theme=highcontrast"
+        srcset="https://github-readme-stats.vercel.app/api?username=arg387&show_icons=true&theme=tokyonight"
         media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
     <img
@@ -25,7 +25,7 @@
         media="(prefers-color-scheme: dark)"
     />
     <source
-        srcset="https://github-readme-stats.vercel.app/api/top-langs?username=arg387&layout=compact&hide=jupyter%20notebook&theme=highcontrast"
+        srcset="https://github-readme-stats.vercel.app/api/top-langs?username=arg387&layout=compact&hide=jupyter%20notebook&theme=tokyonight"
         media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
     <img
