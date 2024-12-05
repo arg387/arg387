@@ -41,4 +41,12 @@
 
 ---
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arg387/arg387/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arg387/arg387/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/arg387/arg387/output/github-snake.svg" />
+</picture>
+
+---
+
 The cards are made with [github-readme-stats](https://github.com/anuraghazra/github-readme-stats). Feel free to check it...
