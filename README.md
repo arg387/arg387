@@ -37,15 +37,16 @@
 
 ---
 
-![keyboard-2308477_1920](https://github.com/user-attachments/assets/bb94fa88-9318-4fd2-848f-e946b49364dd)
-
----
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arg387/arg387/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arg387/arg387/output/github-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/arg387/arg387/output/github-snake.svg" />
 </picture>
+
+
+---
+
+![keyboard-2308477_1920](https://github.com/user-attachments/assets/bb94fa88-9318-4fd2-848f-e946b49364dd)
 
 ---
 
