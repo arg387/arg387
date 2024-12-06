@@ -35,6 +35,12 @@
     />
 </picture>
 
+
+<div align="center">
+<br><p align="centre"><b>Visitors Count</b></p>  
+<p align="center"><img align="center" src="https://profile-counter.glitch.me/{arg387}/count.svg" /></p> 
+<br></div>
+
 ---
 
 <picture>
@@ -45,9 +51,11 @@
 
 
 ---
+<img alt="keyboard" src="https://github.com/user-attachments/assets/bb94fa88-9318-4fd2-848f-e946b49364dd" height = "500px" width = "800px"/>
 
-![keyboard-2308477_1920](https://github.com/user-attachments/assets/bb94fa88-9318-4fd2-848f-e946b49364dd)
 
 ---
 
 The cards are made with [github-readme-stats](https://github.com/anuraghazra/github-readme-stats). The snake game is made from [profile-readme-generator](https://profile-readme-generator.com) site. Feel free to check it...
+
+
