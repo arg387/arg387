@@ -1,15 +1,16 @@
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=200&color=C0FFFA&center=true&vCenter=true&width=500&height=100&lines=Hi+%F0%9F%91%8B%F0%9F%91%8B" />
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=200&color=5C0F37&center=true&vCenter=true&width=500&height=100&lines=Hi+%F0%9F%91%8B%F0%9F%91%8B" />
-</picture>
+<div align="center">
+  <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=200&color=C0FFFA&center=true&vCenter=true&width=500&height=100&lines=Hi+%F0%9F%91%8B%F0%9F%91%8B" />
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=200&color=5C0F37&center=true&vCenter=true&width=500&height=100&lines=Hi+%F0%9F%91%8B%F0%9F%91%8B" />
+  </picture>
+</div>
 
 ---
   - I'm Argha, a passionate programmer with a love for open-source development,Web development.
   - 🚀 Check out my repositories to see what I'm working on.
 ---
-
-<picture>
+<div align="center">
+  <picture>
     <source
         srcset="https://github-readme-stats.vercel.app/api?username=arg387&show_icons=true&theme=tokyonight"
         media="(prefers-color-scheme: dark)"
@@ -23,8 +24,8 @@
         height="190px" align="center"
         src="https://github-readme-stats.vercel.app/api?username=arg387&show_icons=true"
     />
-</picture>
-<picture>
+  </picture>
+  <picture>
     <source
         srcset="https://github-readme-stats.vercel.app/api/top-langs?username=arg387&layout=compact&hide=jupyter%20notebook&theme=tokyonight"
         media="(prefers-color-scheme: dark)"
@@ -38,12 +39,12 @@
         height="190px" align="center"
         src="https://github-readme-stats.vercel.app/api/top-langs?username=arg387&layout=compact&hide=jupyter%20notebook"
     />
-</picture>
-
+  </picture>
+</div> 
 
 <div align="center">
-<br><p align="centre"><b>Visitors Count</b></p>  
-<p align="center"><img align="center" src="https://profile-counter.glitch.me/{arg387}/count.svg" /></p> 
+  <br><p align="centre"><b>Visitors Count</b></p>  
+  <p align="center"><img align="center" src="https://profile-counter.glitch.me/{arg387}/count.svg" /></p> 
 <br></div>
 
 ---
