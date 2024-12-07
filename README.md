@@ -1,4 +1,9 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&color=EDF7F6&center=true&vCenter=true&width=500&height=100&lines=Hi+%F0%9F%91%8B%F0%9F%91%8B)](https://git.io/typing-svg)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=200&color=C0FFFA&center=true&vCenter=true&width=500&height=100&lines=Hi+%F0%9F%91%8B%F0%9F%91%8B" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=200&color=5C0F37&center=true&vCenter=true&width=500&height=100&lines=Hi+%F0%9F%91%8B%F0%9F%91%8B" />
+</picture>
+
 ---
   - I'm Argha, a passionate programmer with a love for open-source development,Web development.
   - 🚀 Check out my repositories to see what I'm working on.
