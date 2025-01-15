@@ -14,7 +14,7 @@
 <div align="center">
   <picture>
     <source
-        srcset="https://github-readme-stats.vercel.app/api?username=arg387&show_icons=true&theme=tokyonight"
+        srcset="https://github-readme-stats.vercel.app/api?username=arg387&show_icons=true&theme=tokyonight&bg_color=421A38"
         media="(prefers-color-scheme: dark)"
     />
     <source
@@ -29,7 +29,7 @@
   </picture>
   <picture>
     <source
-        srcset="https://github-readme-stats.vercel.app/api/top-langs?username=arg387&layout=compact&hide=jupyter%20notebook&theme=tokyonight"
+        srcset="https://github-readme-stats.vercel.app/api/top-langs?username=arg387&layout=compact&hide=jupyter%20notebook&theme=tokyonight&bg_color=421A38"
         media="(prefers-color-scheme: dark)"
     />
     <source
