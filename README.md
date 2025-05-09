@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=90"/>
+</p>
+
 <div align="center">
   <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=200&color=C0FFFA&center=true&vCenter=true&width=500&height=100&lines=Hi+%F0%9F%91%8B%F0%9F%91%8B" />
@@ -5,9 +9,10 @@
   </picture>
 </div>
 
+
 ---
 
-  - I'm Argha, a passionate programmer with a love for open-source development,Web development.
+  - I'm Argha, a passionate programmer with a love for open-source development.
   - 🚀 Check out my repositories to see what I'm working on.
 
 ---
@@ -49,6 +54,17 @@
   <p align="center"><img align="center" src="https://profile-counter.glitch.me/{arg387}/count.svg" /></p> 
 <br></div>
 
+<br>
+<hr>
+
+
+## Trophies 🏆:
+<br>
+<p align='center'>
+<img src="https://github-profile-trophy.vercel.app/?username=arg387&theme=dracula&no-frame=true&margin-w=15&margin-h=15">
+</p>
+<hr>
+<br>
 ---
 
 <picture>
@@ -74,3 +90,7 @@ The cards are made with [github-readme-stats](https://github.com/anuraghazra/git
         <img alt="thanks for your visit" src="https://readme-typing-svg.herokuapp.com?font=Roboto+Slab&color=%237E3ACE&size=24&center=true&vCenter=true&width=300&lines=Thanks+for+your+visit!" >
     </a>
 </div>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=90"/>
+</p>
