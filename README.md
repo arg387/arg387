@@ -83,7 +83,7 @@
 The cards are made with [github-readme-stats](https://github.com/anuraghazra/github-readme-stats). The snake game is made from [profile-readme-generator](https://profile-readme-generator.com) site. Feel free to check it...
 
 ---
-</table>
+
 
 <div align="center">
     <a href="https://git.io/typing-svg">
