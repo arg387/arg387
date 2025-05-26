@@ -19,17 +19,17 @@
 <div align="center">
   <picture>
     <source
-        srcset="https://github-readme-stats.vercel.app/api?username=arg387&show_icons=true&theme=tokyonight&bg_color=421A38"
+        srcset="https://github-readme-stats.vercel.app/api?username=arg387&show_icons=true&theme=tokyonight&bg_color=421A38&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage"
         media="(prefers-color-scheme: dark)"
     />
     <source
-        srcset="https://github-readme-stats.vercel.app/api?username=arg387&show_icons=true&theme=cobalt&bg_color=f1faee&text_color=2A0072"
+        srcset="https://github-readme-stats.vercel.app/api?username=arg387&show_icons=true&theme=cobalt&bg_color=f1faee&text_color=2A0072&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage"
         media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
     <img
         alt="Refresh the page to see my GitHub Stats"
         height="190px" align="center"
-        src="https://github-readme-stats.vercel.app/api?username=arg387&show_icons=true"
+        src="https://github-readme-stats.vercel.app/api?username=arg387&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage"
     />
   </picture>
   <picture>
