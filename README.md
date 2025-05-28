@@ -83,7 +83,7 @@
 
 ---
 
-<img src="https://pacman.abozanona.me?username=arg387&enableSounds=true" alt="pacman animation"/>
+<img src="https://pacman.abozanona.me?username=arg387" alt="pacman animation"/>
 
 ---
 
