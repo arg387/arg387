@@ -81,15 +81,11 @@
 <img src="https://github-profile-trophy.vercel.app/?username=arg387&theme=dracula&no-frame=true&margin-w=15&margin-h=15">
 </p>
 
-###
+---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arg387/arg387/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arg387/arg387/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/arg387/arg387/output/pacman-contribution-graph.svg">
-</picture>
+<img src="https://pacman.abozanona.me?username=arg387" alt="pacman animation"/>
 
-###
+---
 
 <img src="https://raw.githubusercontent.com/arg387/arg387/output/snake.svg" alt="Snake animation" />
 
