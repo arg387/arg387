@@ -31,7 +31,7 @@
     />
     <img
         alt="Refresh the page to see my GitHub Stats"
-        height="200px" align="center"
+        height="190px" align="center"
         src="https://github-readme-stats.vercel.app/api?username=arg387&show_icons=true"
     />
   </picture>
@@ -46,7 +46,7 @@
     />
     <img
         alt="Refresh the page to see the most used languages of me"
-        height="200px" align="center"
+        height="190px" align="center"
         src="https://github-readme-stats.vercel.app/api/top-langs?username=arg387&layout=compact&hide=jupyter%20notebook"
     />
   </picture>
@@ -80,10 +80,8 @@
 <p align='center'>
 <img src="https://github-profile-trophy.vercel.app/?username=arg387&theme=dracula&no-frame=true&margin-w=15&margin-h=15">
 </p>
-<hr>
-<br>
 
----
+<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arg387/arg387/output/github-snake-dark.svg" />
