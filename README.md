@@ -1,3 +1,5 @@
+
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=90"/>
 </p>
@@ -16,15 +18,16 @@
   - 🚀 Check out my repositories to see what I'm working on.
 
 ---
+
 <div align="center">
   <picture>
     <source
-        srcset="https://github-readme-stats.vercel.app/api?username=arg387&show_icons=true&theme=tokyonight&bg_color=421A38"
+        srcset="https://github-readme-stats.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&bg_color=421A38"
         media="(prefers-color-scheme: dark)"
     />
     <source
-        srcset="https://github-readme-stats.vercel.app/api?username=arg387&show_icons=true&theme=cobalt&bg_color=f1faee&text_color=2A0072"
-        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+        srcset="https://github-readme-stats.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&theme=cobalt&bg_color=f1faee&text_color=2A0072"
+        media="(prefers-color-scheme: light)"
     />
     <img
         alt="Refresh the page to see my GitHub Stats"
@@ -34,12 +37,12 @@
   </picture>
   <picture>
     <source
-        srcset="https://github-readme-stats.vercel.app/api/top-langs?username=arg387&layout=compact&hide=jupyter%20notebook&theme=tokyonight&bg_color=421A38"
+        srcset="https://github-readme-stats.vercel.app/api/top-langs?username=arg387&layout=compact&hide_title=false&hide=jupyter%20notebook&theme=tokyonight&bg_color=421A38"
         media="(prefers-color-scheme: dark)"
     />
     <source
-        srcset="https://github-readme-stats.vercel.app/api/top-langs?username=arg387&layout=compact&hide=jupyter%20notebook&theme=cobalt&bg_color=f1faee&text_color=2A0072"
-        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+        srcset="https://github-readme-stats.vercel.app/api/top-langs?username=arg387&layout=compact&hide_title=false&hide=jupyter%20notebook&theme=cobalt&bg_color=f1faee&text_color=2A0072"
+        media="(prefers-color-scheme: light)"
     />
     <img
         alt="Refresh the page to see the most used languages of me"
@@ -54,9 +57,23 @@
   <p align="center"><img align="center" src="https://profile-counter.glitch.me/{arg387}/count.svg" /></p> 
 <br></div>
 
+
+###
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"   />
+  <img width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+  <img width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
+  <img width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+
+</div>
 <br>
 <hr>
-
 
 ## Trophies 🏆:
 <br>
@@ -76,6 +93,15 @@
 
 
 ---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arg387/arg387/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arg387/arg387/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/arg387/arg387/output/pacman-contribution-graph.svg">
+</picture>
+
+---
+
 <img alt="keyboard" src="https://github.com/user-attachments/assets/bb94fa88-9318-4fd2-848f-e946b49364dd" height = "500px" width = "800px"/>
 
 
