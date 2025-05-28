@@ -91,7 +91,6 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/arg387/arg387/output/github-snake.svg" />
 </picture>
 
-
 ---
 
 <picture>
