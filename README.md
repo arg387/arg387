@@ -28,7 +28,7 @@
     />
     <img
         alt="Refresh the page to see my GitHub Stats"
-        height="190px" align="center"
+        height="200px" align="center"
         src="https://github-readme-stats.vercel.app/api?username=arg387&show_icons=true"
     />
   </picture>
@@ -43,7 +43,7 @@
     />
     <img
         alt="Refresh the page to see the most used languages of me"
-        height="190px" align="center"
+        height="200px" align="center"
         src="https://github-readme-stats.vercel.app/api/top-langs?username=arg387&layout=compact&hide=jupyter%20notebook"
     />
   </picture>
