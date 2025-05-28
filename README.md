@@ -76,12 +76,14 @@
 <hr>
 
 ## Trophies 🏆:
-<br>
+
 <p align='center'>
 <img src="https://github-profile-trophy.vercel.app/?username=arg387&theme=dracula&no-frame=true&margin-w=15&margin-h=15">
 </p>
 
 <br>
+
+---
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arg387/arg387/output/github-snake-dark.svg" />
