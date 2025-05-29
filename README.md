@@ -16,13 +16,25 @@
 
   - I'm Argha, a passionate programmer with a love for open-source development.
   - 🚀 Check out my repositories to see what I'm working on.
+---
+
+###
+
+<h3 align="left">🔥   My Stats :</h3>
+
+###
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=arg387&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+</div>
+
 
 ---
 
 <div align="center">
   <picture>
     <source
-        srcset="https://github-readme-stats.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&bg_color=421A38"
+        srcset="https://github-readme-stats.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&bg_color=421A38"
         media="(prefers-color-scheme: dark)"
     />
     <source
@@ -61,6 +73,7 @@
 ###
 
 <div align="center">
+  <br><p align="centre"><b>Languages</b></p>  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"   />
   <img width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
@@ -80,6 +93,8 @@
 <p align='center'>
 <img src="https://github-profile-trophy.vercel.app/?username=arg387&theme=dracula&no-frame=true&margin-w=15&margin-h=15">
 </p>
+
+---
 
 ---
 <div>
