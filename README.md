@@ -95,8 +95,6 @@
 </p>
 
 ---
-
----
 <div>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arg387/arg387/output/pacman-contribution-graph-dark.svg">
