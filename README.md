@@ -25,8 +25,8 @@
 
 
 <div align="center">
-  
-  [![GitHub Streak](https://streak-stats.demolab.com?user=arg387)](https://git.io/streak-stats)
+  <img src="https://streak-stats.demolab.com?user=arg387&theme=catppuccin-frappe&border=EAEBD0&fire=EB5454&border_radius=10" height="220" alt="streak graph"  />
+</div>
   
 </div>
 
