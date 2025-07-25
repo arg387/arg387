@@ -67,7 +67,7 @@
 
 <div align="center">
   <br><p align="centre"><b>Visitors Count</b></p>  
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=arg387.arg387&"  />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=arg387.arg387&left_color=red&right_color=%23ff006e"  />
   <br>
 </div>
 
