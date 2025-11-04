@@ -31,22 +31,22 @@
 <div align="center">
   <picture>
     <source
-        srcset="https://github-readme-stats-drab-phi-35.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1"
+        srcset="https://github-readme-stats-arg387s-projects.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1"
         media="(prefers-color-scheme: dark)"
     />
     <source
-        srcset="https://github-readme-stats-drab-phi-35.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=cobalt&locale=en&hide_border=false&order=1&text_color=ffffff"
+        srcset="https://github-readme-stats-arg387s-projects.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=cobalt&locale=en&hide_border=false&order=1&text_color=ffffff"
         media="(prefers-color-scheme: light)"
     />
     <img
         alt="Refresh the page to see my GitHub Stats"
         height="190px" align="center"
-        src="https://github-stats-ebon-three.vercel.app/api?username=arg387&show_icons=true"
+        src="https://github-readme-stats-arg387s-projects.vercel.app/api?username=arg387&show_icons=true"
     />
   </picture>
   <picture>
     <source
-        srcset="https://github-readme-stats-drab-phi-35.vercel.app/api/top-langs?username=arg387&layout=compact&hide_title=false&hide=jupyter%20notebook&theme=tokyonight&bg_color=421A38"
+        srcset="https://github-readme-stats-arg387s-projects.vercel.app/api/top-langs?username=arg387&layout=compact&hide_title=false&hide=jupyter%20notebook&theme=tokyonight&bg_color=421A38"
         media="(prefers-color-scheme: dark)"
     />
     <source
@@ -56,7 +56,7 @@
     <img
         alt="Refresh the page to see the most used languages of me"
         height="190px" align="center"
-        src="https://github-stats-ebon-three.vercel.app/api/top-langs?username=arg387&layout=compact&hide=jupyter%20notebook"
+        src="https://github-readme-stats-arg387s-projects.vercel.app/api/top-langs?username=arg387&layout=compact&hide=jupyter%20notebook"
     />
   </picture>
 </div> 
