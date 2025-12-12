@@ -23,7 +23,7 @@
 ###
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=arg387&theme=prussian&hide_border=true&border_radius=5" height="220" alt="streak graph"  />
+  <img style="min-width: 100%;" src="https://raw.githubusercontent.com/arg387/arg387/output/github-streak.svg">
 </div>
 
 ---
@@ -59,7 +59,10 @@
         src="http://github-readme-stats-drab-phi-35.vercel.app/api/top-langs?username=arg387&layout=compact&hide=jupyter%20notebook"
     />
   </picture>
+  
 </div> 
+<br>
+<img width="700px" src="https://raw.githubusercontent.com/arg387/arg387/output/activity-graph.svg">
 
 <br>
 
@@ -90,9 +93,10 @@
 
 ## Trophies 🏆:
 
-<p align='center'>
-<img src="https://github-profile-trophy.vercel.app/?username=arg387&theme=dracula&no-frame=true&margin-w=15&margin-h=15">
-</p>
+
+<div align="center">
+  <img style="min-width: 100%;" src="https://raw.githubusercontent.com/arg387/arg387/output/github-trophies.svg">
+</div>
 
 ---
 <div>
@@ -104,7 +108,11 @@
 </div>
 
 ---
-<img src="https://raw.githubusercontent.com/arg387/arg387/output/snake.svg" alt="Snake animation" />
+<picture>
+      <source style="min-width: 100%;" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arg387/arg387/output/github-snake-dark.svg">
+      <source style="min-width: 100%;" media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arg387/arg387/output/github-snake.svg">
+      <img style="min-width: 100%;" src="https://raw.githubusercontent.com/arg387/arg387/output/github-snake.svg">
+</picture>
 
 ---
 
