@@ -59,12 +59,14 @@
         src="http://github-readme-stats-drab-phi-35.vercel.app/api/top-langs?username=arg387&layout=compact&hide=jupyter%20notebook"
     />
   </picture>
-  
-</div> 
-<br>
-<img width="700px" src="https://raw.githubusercontent.com/arg387/arg387/output/activity-graph.svg">
 
-<br>
+</div>
+
+---
+
+<div align="center">
+  <img width="700px" align="center" src="https://raw.githubusercontent.com/arg387/arg387/output/activity-graph.svg">
+</div> 
 
 <div align="center">
   <br><p align="centre"><b>Visitors Count</b></p>  
@@ -95,7 +97,7 @@
 
 
 <div align="center">
-  <img style="min-width: 100%;" src="https://raw.githubusercontent.com/arg387/arg387/output/github-trophies.svg">
+  <img width="700px" src="https://raw.githubusercontent.com/arg387/arg387/output/github-trophies.svg">
 </div>
 
 ---
