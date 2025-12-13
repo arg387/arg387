@@ -32,7 +32,7 @@ jobs:
         run: |
           curl -f --connect-timeout 30 --retry 3 --retry-delay 5 \
             -o "./dist/github-trophies.svg" \
-            "https://github-profile-trophy-kcdwlbk16-arg387s-projects.vercel.app/?username=${{ github.repository_owner }}&title=MultiLanguage,Stars,Commits,Repositories,PullRequest,Followers&no-frame=true&column=6&margin-w=8&margin-h=8&theme=juicyfresh" \
+            "https://github-profile-trophy-pi-ten.vercel.app/?username=${{ github.repository_owner }}&title=MultiLanguage,Stars,Commits,Repositories,PullRequest,Followers&no-frame=true&column=6&margin-w=8&margin-h=8&theme=juicyfresh" \
             || echo "Failed to fetch Trophies."
         
       - name: 4. Fetch GitHub Streak
