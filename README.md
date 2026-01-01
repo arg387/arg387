@@ -23,8 +23,10 @@
 
 ###
 
-<div align="center">
-  <img style="min-width: 100%;" src="https://raw.githubusercontent.com/arg387/arg387/output/github-streak.svg">
+<div style="min-width: 100%;" align="center">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arg387/arg387/output/github-streak.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arg387/arg387/output/github-streak-light.svg">
+  <img alt="github streak" src="https://raw.githubusercontent.com/arg387/arg387/output/github-streak.svg">
 </div>
 
 ---
