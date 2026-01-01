@@ -4,7 +4,8 @@
 
 <div align="center">
   <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=200&color=C0FFFA&center=true&vCenter=true&width=500&height=100&lines=Hi+%F0%9F%91%8B%F0%9F%91%8B" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=200&color=00FFBF&center=true&vCenter=true&width=500&height=100&lines=Hi+%F0%9F%91%8B%F0%9F%91%8B" />
+      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=200&color=010B13&center=true&vCenter=true&width=500&height=100&lines=Hi+%F0%9F%91%8B%F0%9F%91%8B" />
       <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=200&color=5C0F37&center=true&vCenter=true&width=500&height=100&lines=Hi+%F0%9F%91%8B%F0%9F%91%8B" />
   </picture>
 </div>
@@ -70,7 +71,7 @@
 
 <div align="center">
   <br><p align="centre"><b>Visitors Count</b></p>  
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=arg387.arg387&left_color=red&right_color=%23ff006e"  />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=arg387.arg387&left_color=red&right_color=%23ff006e"/>
   <br> 
 </div>
 
@@ -79,15 +80,15 @@
 
 <div align="center">
   <br><p align="centre"><b>Languages</b></p>  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"   />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"/>
   <img width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"/>
   <img width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"/>
   <img width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"/>
   <img width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"/>
 
 </div>
 <br>
