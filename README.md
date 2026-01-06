@@ -33,17 +33,17 @@
 <div align="center">
   <picture>
     <source
-        srcset="http://github-readme-stats-drab-phi-35.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1"
+        srcset="http://github-readme-stats-fast.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1"
         media="(prefers-color-scheme: dark)"
     />
     <source
-        srcset="http://github-readme-stats-drab-phi-35.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=cobalt&locale=en&hide_border=false&order=1&text_color=ffffff"
+        srcset="http://github-readme-stats-fast.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=cobalt&locale=en&hide_border=false&order=1&text_color=ffffff"
         media="(prefers-color-scheme: light)"
     />
     <img
         alt="Refresh the page to see my GitHub Stats"
         height="190px" align="center"
-        src="http://github-readme-stats-drab-phi-35.vercel.app/api?username=arg387&show_icons=true"
+        src="http://github-readme-stats-fast.vercel.app/api?username=arg387&show_icons=true"
     />
   </picture>
   <picture>
@@ -125,7 +125,7 @@
 
 ---
 
-The cards are made with [github-readme-stats](https://github.com/anuraghazra/github-readme-stats). The snake game is made from [profile-readme-generator](https://profile-readme-generator.com) site. Feel free to check it...
+The cards are made with [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-readme-stats-fast](https://github.com/Pranesh-2005/github-readme-stats-fast) . The snake game is made from [profile-readme-generator](https://profile-readme-generator.com) site. Feel free to check it...
 
 ---
 
