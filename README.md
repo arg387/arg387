@@ -48,17 +48,17 @@
   </picture>
   <picture>
     <source
-        srcset="http://github-readme-stats-drab-phi-35.vercel.app/api/top-langs?username=arg387&layout=compact&hide_title=false&hide=jupyter%20notebook&theme=tokyonight&bg_color=421A38"
+        srcset="https://github-readme-stats-rho-livid-53.vercel.app/api/top-langs?username=arg387&layout=compact&hide_title=false&hide=jupyter%20notebook&theme=tokyonight&bg_color=421A38"
         media="(prefers-color-scheme: dark)"
     />
     <source
-        srcset="https://github-readme-stats-drab-phi-35.vercel.app/api/top-langs?username=arg387&layout=compact&hide_title=false&hide=jupyter%20notebook&theme=cobalt&bg_color=f1faee&text_color=2A0072"
+        srcset="https://github-readme-stats-rho-livid-53.vercel.app/api/top-langs?username=arg387&layout=compact&hide_title=false&hide=jupyter%20notebook&theme=cobalt&bg_color=f1faee&text_color=2A0072"
         media="(prefers-color-scheme: light)"
     />
     <img
         alt="Refresh the page to see the most used languages of me"
         height="190px" align="center"
-        src="http://github-readme-stats-drab-phi-35.vercel.app/api/top-langs?username=arg387&layout=compact&hide=jupyter%20notebook"
+        src="https://github-readme-stats-rho-livid-53.vercel.app/api/top-langs?username=arg387&layout=compact&hide=jupyter%20notebook"
     />
   </picture>
 
