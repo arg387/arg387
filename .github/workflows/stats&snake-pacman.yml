@@ -15,8 +15,6 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: 1. Checkout Main Branch
-        uses: actions/checkout@v3
 
       - name: 2. Generate GitHub Contributions Snake Animations
         uses: Platane/snk/svg-only@v3
