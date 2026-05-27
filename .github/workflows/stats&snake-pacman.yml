@@ -34,10 +34,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           theme: dracula
           max-rows: 1
-          margin-width: 8
-          margin-height: 8
-          no-background: false
-          no-frame: false
         
       - name: 4. Fetch GitHub Streak
         run: |
