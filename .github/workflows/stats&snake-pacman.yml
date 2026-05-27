@@ -27,7 +27,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}       
           
       - name: generate trophy.svg
-        uses: Erik-Donath/github-profile-trophy@feature/github-trophies-svg
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: ${{ github.repository_owner }}
           file: dist/trophy.svg
