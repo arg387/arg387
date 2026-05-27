@@ -99,7 +99,7 @@
 
 
 <div align="center">
-  <img width="700px" src="https://raw.githubusercontent.com/arg387/arg387/output/github-trophies.svg">
+  <img width="700px" src="https://raw.githubusercontent.com/arg387/arg387/output/trophy.svg">
 </div>
 
 ---
