@@ -66,10 +66,10 @@ jobs:
       - name: 8. Deploy to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
-          commit_message: "Updated stats and snake animation"
+          build_dir: dist
+          target_branch: output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
       - name: 9. generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
