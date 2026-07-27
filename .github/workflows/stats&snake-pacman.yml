@@ -5,6 +5,7 @@ on:
     - cron: "0 0 * * *"
 
   workflow_dispatch:
+
   push:
     branches:
       - main
@@ -12,12 +13,32 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
+
     permissions:
       contents: write
 
     steps:
-      - name: 1. Generate GitHub Contributions Snake Animations
+      # ---------------------------------------------------
+      # 1. Prepare workspace
+      # ---------------------------------------------------
+      - name: Prepare dist directory
+        run: mkdir -p dist
+
+      # ---------------------------------------------------
+      # 2. Restore previous output branch
+      # ---------------------------------------------------
+      - name: Checkout previous output branch
+        uses: actions/checkout@v4
+        continue-on-error: true
+        with:
+          ref: output
+          path: output-branch
+
+      # ---------------------------------------------------
+      # 3. Generate GitHub contribution snake
+      # ---------------------------------------------------
+      - name: Generate GitHub Contributions Snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -25,9 +46,15 @@ jobs:
             dist/github-snake.svg?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#cca835&color_dots=#161b22,#1e415e,#2b5b84,#3b78a3,#4b91f1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}       
-          
-      - name: 2. generate trophy.svg
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ---------------------------------------------------
+      # 4. Generate trophy
+      # This action is experimental, so don't kill the
+      # entire workflow if it fails.
+      # ---------------------------------------------------
+      - name: Generate Trophy
+        continue-on-error: true
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: ${{ github.repository_owner }}
@@ -39,44 +66,99 @@ jobs:
           margin-height: 8
           no-background: false
           no-frame: false
-        
-      - name: 3. Fetch GitHub Streak
+
+      # ---------------------------------------------------
+      # 5. Fetch GitHub Streak
+      # ---------------------------------------------------
+      - name: Fetch GitHub Streak
+        continue-on-error: true
         run: |
-          curl -f --connect-timeout 30 --retry 3 --retry-delay 5 \
+          curl \
+            --fail \
+            --location \
+            --connect-timeout 30 \
+            --max-time 120 \
+            --retry 3 \
+            --retry-delay 5 \
             -o "./dist/github-streak.svg" \
-            "https://github-readme-streak-stats-eight.vercel.app/?user=${{ github.repository_owner }}&starting_year=2020&hide_border=true&card_width=700&card_height=220&theme=tokyonight" \
-            || echo "Failed to fetch GitHub Streak."
+            "https://github-readme-streak-stats-eight.vercel.app/?user=${{ github.repository_owner }}&starting_year=2020&hide_border=true&card_width=700&card_height=220&theme=tokyonight"
 
-      - name: 4. Fetch Activity Graph
+      # ---------------------------------------------------
+      # 6. Fetch Activity Graph
+      # ---------------------------------------------------
+      - name: Fetch Activity Graph
+        continue-on-error: true
         run: |
-          curl -f --connect-timeout 30 --retry 3 --retry-delay 5 \
+          curl \
+            --fail \
+            --location \
+            --connect-timeout 30 \
+            --max-time 120 \
+            --retry 3 \
+            --retry-delay 5 \
             -o "./dist/activity-graph.svg" \
-            "https://github-readme-activity-graph.vercel.app/graph?username=${{ github.repository_owner }}&custom_title=⚡%20Activity%20Graph&days=30&area=true&radius=8&hide_border=true&height=350&theme=react-dark&bg_color=050608&color=ffffff&title_color=ffffff&line=3572a5&point=ffffff&area_color=3572a5" \
-            || echo "Failed to fetch Activity Graph."
+            "https://github-readme-activity-graph.vercel.app/graph?username=${{ github.repository_owner }}&custom_title=Activity%20Graph&days=30&area=true&radius=8&hide_border=true&height=350&theme=react-dark&bg_color=050608&color=ffffff&title_color=ffffff&line=3572a5&point=ffffff&area_color=3572a5"
 
-      - name: 5. Restore Missing Files from Output Branch
+      # ---------------------------------------------------
+      # 7. Restore failed/missing files
+      # ---------------------------------------------------
+      - name: Restore Missing Files
         run: |
-          mkdir -p dist
-          for file in github-snake.svg github-snake-dark.svg trophy.svg github-streak.svg activity-graph.svg; do
+          FILES=(
+            "github-snake.svg"
+            "github-snake-dark.svg"
+            "trophy.svg"
+            "github-streak.svg"
+            "activity-graph.svg"
+          )
+
+          for file in "${FILES[@]}"; do
+
             if [ ! -s "./dist/$file" ]; then
-              echo "Restoring fallback: $file"
-              cp "./output-branch/$file" "./dist/$file" 2>/dev/null || echo "Fallback not found for $file"
+              echo "Missing: $file"
+
+              if [ -s "./output-branch/$file" ]; then
+                echo "Restoring previous $file"
+                cp "./output-branch/$file" "./dist/$file"
+              else
+                echo "No previous version available for $file"
+              fi
+
+            else
+              echo "OK: $file"
             fi
+
           done
 
-      - name: generate contribution graph SVGs
+      # ---------------------------------------------------
+      # 8. Generate contribution games
+      # ---------------------------------------------------
+      - name: Generate Contribution Graph Games
         uses: abozanona/pacman-contribution-graph@main
         with:
-            github_user_name: ${{ github.repository_owner }}
-            # Comma-separated list of game names to generate. Default: pacman
-            games: 'pacman,breakout,galaga'
+          github_user_name: ${{ github.repository_owner }}
+          games: "pacman,breakout,galaga"
 
-      # Push the generated SVGs to the output branch
-      - name: push SVGs to the output branch
+      # ---------------------------------------------------
+      # 9. Debug generated files
+      # ---------------------------------------------------
+      - name: Show Generated Files
+        run: |
+          echo "Generated files:"
+          find dist -maxdepth 1 -type f -printf "%f\n" | sort
+
+          echo ""
+          echo "File sizes:"
+          du -h dist/* || true
+
+      # ---------------------------------------------------
+      # 10. Publish everything
+      # ---------------------------------------------------
+      - name: Push SVGs to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-            target_branch: output
-            build_dir: dist
+          target_branch: output
+          build_dir: dist
+          keep_history: false
         env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
