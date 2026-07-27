@@ -17,8 +17,7 @@ jobs:
     steps:
       - name: Setup Deno
         uses: denoland/setup-deno@v2.0.4
-        with:
-          deno-version: lts
+
 
       - name: 1. Generate GitHub Contributions Snake Animations
         uses: Platane/snk/svg-only@v3
