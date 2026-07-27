@@ -13,12 +13,10 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write
 
     steps:
-      - name: Setup Deno
-        uses: denoland/setup-deno@v2.0.4
-
-
       - name: 1. Generate GitHub Contributions Snake Animations
         uses: Platane/snk/svg-only@v3
         with:
