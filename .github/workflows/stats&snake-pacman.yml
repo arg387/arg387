@@ -50,8 +50,8 @@ jobs:
 
       # ---------------------------------------------------
       # 4. Generate trophy
-      # This action is experimental, so don't kill the
-      # entire workflow if it fails.
+      # This action is not properly working so i have ensured
+      # entire workflow still works if it fails.
       # ---------------------------------------------------
       - name: Generate Trophy
         continue-on-error: true
