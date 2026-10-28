@@ -33,11 +33,11 @@
 <div align="center">
   <picture>
     <source
-        srcset="http://github-readme-stats-fast.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1"
+        srcset="http://github-readme-stats.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1"
         media="(prefers-color-scheme: dark)"
     />
     <source
-        srcset="http://github-readme-stats-fast.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=cobalt&locale=en&hide_border=false&order=1&text_color=ffffff"
+        srcset="http://github-readme-stats.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=cobalt&locale=en&hide_border=false&order=1&text_color=ffffff"
         media="(prefers-color-scheme: light)"
     />
     <img
