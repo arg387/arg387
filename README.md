@@ -21,13 +21,6 @@
 
 <h3 align="left">🔥   My Stats :</h3>
 
-###
-
-<div style="min-width: 100%;" align="center">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arg387/arg387/output/github-streak.svg">
-  <img alt="github streak" src="https://raw.githubusercontent.com/arg387/arg387/output/github-streak.svg">
-</div>
-
 ---
 
 <div align="center">
@@ -99,9 +92,14 @@
 
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=arg387&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://raw.githubusercontent.com/arg387/arg387/output/trophy.svg?theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
-  
+  <div>
+    <img src="https://streak-stats.demolab.com?user=arg387&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+  </div>
+  <br>
+  <div>
+    <img src="https://raw.githubusercontent.com/arg387/arg387/output/trophy.svg?theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+  </div>
+     
 </div>
 
 ---
