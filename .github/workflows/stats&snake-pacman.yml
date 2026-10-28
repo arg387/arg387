@@ -50,8 +50,6 @@ jobs:
 
       # ---------------------------------------------------
       # 4. Generate trophy
-      # This action is not properly working so i have ensured
-      # entire workflow still works if it fails.
       # ---------------------------------------------------
       - name: Generate Trophy
         continue-on-error: true
@@ -66,25 +64,9 @@ jobs:
           margin-height: 8
           no-background: false
           no-frame: false
-
+          
       # ---------------------------------------------------
-      # 5. Fetch GitHub Streak
-      # ---------------------------------------------------
-      - name: Fetch GitHub Streak
-        continue-on-error: true
-        run: |
-          curl \
-            --fail \
-            --location \
-            --connect-timeout 30 \
-            --max-time 120 \
-            --retry 3 \
-            --retry-delay 5 \
-            -o "./dist/github-streak.svg" \
-            "https://github-readme-streak-stats-eight.vercel.app/?user=${{ github.repository_owner }}&starting_year=2020&hide_border=true&card_width=700&card_height=220&theme=tokyonight"
-
-      # ---------------------------------------------------
-      # 6. Fetch Activity Graph
+      # 5. Fetch Activity Graph
       # ---------------------------------------------------
       - name: Fetch Activity Graph
         continue-on-error: true
@@ -100,7 +82,7 @@ jobs:
             "https://github-readme-activity-graph.vercel.app/graph?username=${{ github.repository_owner }}&custom_title=Activity%20Graph&days=30&area=true&radius=8&hide_border=true&height=350&theme=react-dark&bg_color=050608&color=ffffff&title_color=ffffff&line=3572a5&point=ffffff&area_color=3572a5"
 
       # ---------------------------------------------------
-      # 7. Restore failed/missing files
+      # 6. Restore failed/missing files
       # ---------------------------------------------------
       - name: Restore Missing Files
         run: |
@@ -131,7 +113,7 @@ jobs:
           done
 
       # ---------------------------------------------------
-      # 8. Generate contribution games
+      # 7. Generate contribution games
       # ---------------------------------------------------
       - name: Generate Contribution Graph Games
         uses: abozanona/pacman-contribution-graph@main
@@ -140,7 +122,7 @@ jobs:
           games: "pacman,breakout,galaga"
 
       # ---------------------------------------------------
-      # 9. Debug generated files
+      # 8. Debug generated files
       # ---------------------------------------------------
       - name: Show Generated Files
         run: |
@@ -152,7 +134,7 @@ jobs:
           du -h dist/* || true
 
       # ---------------------------------------------------
-      # 10. Publish everything
+      # 9. Publish everything
       # ---------------------------------------------------
       - name: Push SVGs to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
