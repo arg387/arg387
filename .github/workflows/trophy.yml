@@ -19,11 +19,14 @@ jobs:
 
     steps:
       - name: generate trophy.svg
+        continue-on-error: true
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: ${{ github.repository_owner }}
+          
           file: dist/trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
           theme: dracula
           max-rows: 1
           margin-width: 8
@@ -36,5 +39,6 @@ jobs:
         with:
           target_branch: trophy-output
           build_dir: dist
+          keep_history: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
