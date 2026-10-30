@@ -93,7 +93,7 @@
 
 <div data-importer="stats" align="center">
   <img src="https://streak-stats.demolab.com?user=arg387&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://karloos-github-profile-trophy.vercel.app/?username=arg387&theme=radical&no-frame=true&no-bg=true&column=-1" alt="Trophies" width="100%"/>
+  <img src="https://github-profile-trophy-1-rho.vercel.app/?username=arg387&theme=radical&no-frame=true&no-bg=true&column=-1" alt="Trophies" width="100%"/>
 </div>
 
 ---
