@@ -20,6 +20,16 @@
 ###
 
 <h3 align="left">🔥   My Stats :</h3>
+<br>
+<div align="center">
+  <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=arg387&theme=dracula" />
+      <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=arg387&theme=catppuccin-latte" />
+      <img src="https://streak-stats.demolab.com?user=arg387&locale=en&mode=daily&hide_border=false&border_radius=5&order=3" height="200" alt="streak graph" />
+  </picture>
+    
+</div>
+
 
 ---
 
@@ -41,7 +51,7 @@
   </picture>
   <picture>
     <source
-        srcset="https://github-readme-stats-rho-livid-53.vercel.app/api/top-langs?username=arg387&layout=compact&hide_title=false&hide=jupyter%20notebook&theme=tokyonight&bg_color=421A38"
+        srcset="https://github-readme-stats-rho-livid-53.vercel.app/api/top-langs?username=arg387&layout=compact&hide_title=false&hide=jupyter%20notebook&theme=dracula&locale=en"
         media="(prefers-color-scheme: dark)"
     />
     <source
@@ -60,7 +70,7 @@
 ---
 
 <div align="center">
-  <img src="https://github-act-graph.rodriaum.com/graph?username=arg387&theme=cobalt&type=gradient&hide_border=true&v=3" alt="Activity Graph" />
+  <img src="https://github-act-graph.rodriaum.com/graph?username=arg387&theme=dracula&type=gradient&hide_border=true&v=3" alt="Activity Graph" />
 </div> 
 
 <div align="center">
@@ -92,8 +102,7 @@
 
 
 <div data-importer="stats" align="center">
-  <img src="https://streak-stats.demolab.com?user=arg387&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-trophy-jagratadeb.vercel.app/?username=arg387&theme=radical&no-frame=true&no-bg=true&column=-1" alt="Trophies" width="100%"/>
+  <img src="https://github-trophy-jagratadeb.vercel.app/?username=arg387&theme=dracula&no-frame=true&no-bg=true&column=-1" alt="Trophies" width="100%"/>
 </div>
 
 ---
