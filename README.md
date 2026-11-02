@@ -40,7 +40,7 @@
         media="(prefers-color-scheme: dark)"
     />
     <source
-        srcset="http://github-readme-stats-extended.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=cobalt&bg_color=f1faee&locale=en&hide_border=false&order=1&text_color=ffffff"
+        srcset="http://github-readme-stats-extended.vercel.app/api?username=arg387&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=cobalt&bg_color=f1faee&locale=en&hide_border=false&order=1&text_color=000E24"
         media="(prefers-color-scheme: light)"
     />
     <img
