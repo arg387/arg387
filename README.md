@@ -70,7 +70,11 @@
 ---
 
 <div align="center">
-  <img src="https://github-act-graph.rodriaum.com/graph?username=arg387&theme=dracula&type=gradient&hide_border=true&v=3" alt="Activity Graph" />
+  <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-act-graph.rodriaum.com/graph?username=arg387&theme=dracula&type=gradient&hide_border=true&v=3" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-act-graph.rodriaum.com/graph?username=arg387&theme=minimal&type=gradient&hide_border=true&v=3" />
+      <img src="https://github-act-graph.rodriaum.com/graph?username=arg387" alt="Activity Graph" />
+  </picture>
 </div> 
 
 <div align="center">
@@ -102,7 +106,13 @@
 
 
 <div data-importer="stats" align="center">
-  <img src="https://github-trophy-jagratadeb.vercel.app/?username=arg387&theme=dracula&no-frame=true&no-bg=true&column=-1" alt="Trophies" width="100%"/>
+  
+  <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-trophy-jagratadeb.vercel.app/?username=arg387&theme=dracula">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-trophy-jagratadeb.vercel.app/?username=arg387&theme=flat">
+      <img src="https://github-trophy-jagratadeb.vercel.app/?username=arg387&theme=dracula&no-frame=true&no-bg=true&column=-1" alt="Trophies" width="100%"/>
+  </picture>
+
 </div>
 
 ---
