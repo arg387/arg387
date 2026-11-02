@@ -55,7 +55,7 @@
         media="(prefers-color-scheme: dark)"
     />
     <source
-        srcset="https://github-readme-stats-rho-livid-53.vercel.app/api/top-langs?username=arg387&layout=compact&hide_title=false&hide=jupyter%20notebook&theme=cobalt&bg_color=f1faee&text_color=2A0072"
+        srcset="https://github-readme-stats-rho-livid-53.vercel.app/api/top-langs?username=arg387&layout=compact&hide_title=false&hide=jupyter%20notebook&theme=cobalt&bg_color=f1faee"
         media="(prefers-color-scheme: light)"
     />
     <img
