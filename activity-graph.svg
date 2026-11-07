@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ct="http://gionkunz.github.com/chartist-js/ct" class="ct-chart-line" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-label="Activity Graph"><title>Activity Graph</title><rect class="graph-background" x="0" y="0" width="1200" height="350" rx="8" fill="#050608"/><g class="ct-grids"><line class="ct-grid ct-vertical" y1="302" y2="302" x1="60" x2="1166"/><line class="ct-grid ct-vertical" y1="265.8333333333333" y2="265.8333333333333" x1="60" x2="1166"/><line class="ct-grid ct-vertical" y1="229.66666666666669" y2="229.66666666666669" x1="60" x2="1166"/><line class="ct-grid ct-vertical" y1="193.5" y2="193.5" x1="60" x2="1166"/><line class="ct-grid ct-vertical" y1="157.33333333333334" y2="157.33333333333334" x1="60" x2="1166"/><line class="ct-grid ct-vertical" y1="121.16666666666666" y2="121.16666666666666" x1="60" x2="1166"/><line class="ct-grid ct-vertical" y1="85" y2="85" x1="60" x2="1166"/></g><g><g class="ct-series ct-series-a" ct:series-name="contributions"><path class="ct-area" d="M60,302L60,302C72.713,302,85.425,302,98.138,302C110.851,302,123.563,244.133,136.276,244.133C148.989,244.133,161.701,294.767,174.414,294.767C187.126,294.767,199.839,294.767,212.552,294.767C225.264,294.767,237.977,302,250.69,302C263.402,302,276.115,294.767,288.828,294.767C301.54,294.767,314.253,302,326.966,302C339.678,302,352.391,294.767,365.103,294.767C377.816,294.767,390.529,302,403.241,302C415.954,302,428.667,302,441.379,302C454.092,302,466.805,302,479.517,302C492.23,302,504.943,302,517.655,302C530.368,302,543.08,302,555.793,302C568.506,302,581.218,287.533,593.931,287.533C606.644,287.533,619.356,287.533,632.069,287.533C644.782,287.533,657.494,302,670.207,302C682.92,302,695.632,302,708.345,302C721.057,302,733.77,302,746.483,302C759.195,302,771.908,255.97,784.621,229.667C797.333,203.364,810.046,142.867,822.759,142.867C835.471,142.867,848.184,166.47,860.897,186.267C873.609,206.063,886.322,280.3,899.034,280.3C911.747,280.3,924.46,273.067,937.172,273.067C949.885,273.067,962.598,302,975.31,302C988.023,302,1000.736,251.367,1013.448,251.367C1026.161,251.367,1038.874,260.047,1051.586,265.833C1064.299,271.62,1077.011,283.917,1089.724,287.533C1102.437,291.15,1115.149,294.767,1127.862,294.767C1140.575,294.767,1153.287,285.122,1166,280.3L1166,302Z"/><path class="ct-line" d="M60,302C72.713,302,85.425,302,98.138,302C110.851,302,123.563,244.133,136.276,244.133C148.989,244.133,161.701,294.767,174.414,294.767C187.126,294.767,199.839,294.767,212.552,294.767C225.264,294.767,237.977,302,250.69,302C263.402,302,276.115,294.767,288.828,294.767C301.54,294.767,314.253,302,326.966,302C339.678,302,352.391,294.767,365.103,294.767C377.816,294.767,390.529,302,403.241,302C415.954,302,428.667,302,441.379,302C454.092,302,466.805,302,479.517,302C492.23,302,504.943,302,517.655,302C530.368,302,543.08,302,555.793,302C568.506,302,581.218,287.533,593.931,287.533C606.644,287.533,619.356,287.533,632.069,287.533C644.782,287.533,657.494,302,670.207,302C682.92,302,695.632,302,708.345,302C721.057,302,733.77,302,746.483,302C759.195,302,771.908,255.97,784.621,229.667C797.333,203.364,810.046,142.867,822.759,142.867C835.471,142.867,848.184,166.47,860.897,186.267C873.609,206.063,886.322,280.3,899.034,280.3C911.747,280.3,924.46,273.067,937.172,273.067C949.885,273.067,962.598,302,975.31,302C988.023,302,1000.736,251.367,1013.448,251.367C1026.161,251.367,1038.874,260.047,1051.586,265.833C1064.299,271.62,1077.011,283.917,1089.724,287.533C1102.437,291.15,1115.149,294.767,1127.862,294.767C1140.575,294.767,1153.287,285.122,1166,280.3"/><line class="ct-point graph-point-active" x1="136.27586206896552" y1="244.13333333333333" x2="136.2858620689655" y2="244.13333333333333" ct:value="8"><title>8 contributions on 11</title></line><line class="ct-point graph-point-active" x1="174.41379310344828" y1="294.76666666666665" x2="174.42379310344828" y2="294.76666666666665" ct:value="1"><title>1 contribution on 12</title></line><line class="ct-point graph-point-active" x1="212.55172413793105" y1="294.76666666666665" x2="212.56172413793104" y2="294.76666666666665" ct:value="1"><title>1 contribution on 13</title></line><line class="ct-point graph-point-active" x1="288.82758620689657" y1="294.76666666666665" x2="288.83758620689656" y2="294.76666666666665" ct:value="1"><title>1 contribution on 15</title></line><line class="ct-point graph-point-active" x1="365.1034482758621" y1="294.76666666666665" x2="365.1134482758621" y2="294.76666666666665" ct:value="1"><title>1 contribution on 17</title></line><line class="ct-point graph-point-active" x1="593.9310344827586" y1="287.53333333333336" x2="593.9410344827586" y2="287.53333333333336" ct:value="2"><title>2 contributions on 23</title></line><line class="ct-point graph-point-active" x1="632.0689655172414" y1="287.53333333333336" x2="632.0789655172414" y2="287.53333333333336" ct:value="2"><title>2 contributions on 24</title></line><line class="ct-point graph-point-active" x1="784.6206896551724" y1="229.66666666666669" x2="784.6306896551724" y2="229.66666666666669" ct:value="10"><title>10 contributions on 28</title></line><line class="ct-point graph-point-active" x1="822.7586206896552" y1="142.86666666666667" x2="822.7686206896552" y2="142.86666666666667" ct:value="22"><title>22 contributions on 29</title></line><line class="ct-point graph-point-active" x1="860.896551724138" y1="186.26666666666665" x2="860.906551724138" y2="186.26666666666665" ct:value="16"><title>16 contributions on 30</title></line><line class="ct-point graph-point-active" x1="899.0344827586207" y1="280.3" x2="899.0444827586207" y2="280.3" ct:value="3"><title>3 contributions on 31</title></line><line class="ct-point graph-point-active" x1="937.1724137931035" y1="273.06666666666666" x2="937.1824137931035" y2="273.06666666666666" ct:value="4"><title>4 contributions on 01</title></line><line class="ct-point graph-point-active" x1="1013.4482758620691" y1="251.36666666666667" x2="1013.4582758620691" y2="251.36666666666667" ct:value="7"><title>7 contributions on 03</title></line><line class="ct-point graph-point-active" x1="1051.5862068965519" y1="265.8333333333333" x2="1051.5962068965518" y2="265.8333333333333" ct:value="5"><title>5 contributions on 04</title></line><line class="ct-point graph-point-active" x1="1089.7241379310346" y1="287.53333333333336" x2="1089.7341379310346" y2="287.53333333333336" ct:value="2"><title>2 contributions on 05</title></line><line class="ct-point graph-point-active" x1="1127.8620689655172" y1="294.76666666666665" x2="1127.8720689655172" y2="294.76666666666665" ct:value="1"><title>1 contribution on 06</title></line><line class="ct-point graph-point-active" x1="1166" y1="280.3" x2="1166.01" y2="280.3" ct:value="3"><title>3 contributions on 07</title></line></g></g><g class="ct-labels"><text class="ct-label ct-horizontal ct-end" x="60" y="317.2" text-anchor="start"><tspan x="60" y="317.2">09</tspan></text><text class="ct-label ct-horizontal ct-end" x="174.41" y="317.2" text-anchor="start"><tspan x="174.41" y="317.2">12</tspan></text><text class="ct-label ct-horizontal ct-end" x="288.83" y="317.2" text-anchor="start"><tspan x="288.83" y="317.2">15</tspan></text><text class="ct-label ct-horizontal ct-end" x="403.24" y="317.2" text-anchor="start"><tspan x="403.24" y="317.2">18</tspan></text><text class="ct-label ct-horizontal ct-end" x="517.66" y="317.2" text-anchor="start"><tspan x="517.66" y="317.2">21</tspan></text><text class="ct-label ct-horizontal ct-end" x="632.07" y="317.2" text-anchor="start"><tspan x="632.07" y="317.2">24</tspan></text><text class="ct-label ct-horizontal ct-end" x="746.48" y="317.2" text-anchor="start"><tspan x="746.48" y="317.2">27</tspan></text><text class="ct-label ct-horizontal ct-end" x="860.9" y="317.2" text-anchor="start"><tspan x="860.9" y="317.2">30</tspan></text><text class="ct-label ct-horizontal ct-end" x="975.31" y="317.2" text-anchor="start"><tspan x="975.31" y="317.2">02</tspan></text><text class="ct-label ct-horizontal ct-end" x="1089.72" y="317.2" text-anchor="start"><tspan x="1089.72" y="317.2">05</tspan></text><text class="ct-label ct-horizontal ct-end" x="1166" y="317.2" text-anchor="start"><tspan x="1166" y="317.2">07</tspan></text><text class="ct-label ct-vertical ct-start" x="50" y="300.2" text-anchor="end"><tspan x="50" y="300.2">0</tspan></text><text class="ct-label ct-vertical ct-start" x="50" y="264.03" text-anchor="end"><tspan x="50" y="264.03">5</tspan></text><text class="ct-label ct-vertical ct-start" x="50" y="227.87" text-anchor="end"><tspan x="50" y="227.87">10</tspan></text><text class="ct-label ct-vertical ct-start" x="50" y="191.7" text-anchor="end"><tspan x="50" y="191.7">15</tspan></text><text class="ct-label ct-vertical ct-start" x="50" y="155.53" text-anchor="end"><tspan x="50" y="155.53">20</tspan></text><text class="ct-label ct-vertical ct-start" x="50" y="119.37" text-anchor="end"><tspan x="50" y="119.37">25</tspan></text><text class="ct-label ct-vertical ct-start" x="50" y="83.2" text-anchor="end"><tspan x="50" y="83.2">30</tspan></text></g><text class="graph-title" x="600" y="48" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">Activity Graph</text><rect class="graph-border" x="0.5" y="0.5" width="1199" height="349" rx="8" fill="none" stroke="#0000" stroke-width="1"/><style>svg {
+  overflow: hidden;
+  font-family: &#039;Segoe UI&#039;, Ubuntu, sans-serif;
+}
+.ct-label {
+  fill: #ffffff;
+  color: #ffffff;
+  font-size: 11px;
+  font-family: &#039;Segoe UI&#039;, Ubuntu, sans-serif;
+}
+.ct-grid {
+  stroke: #ffffff;
+  stroke-opacity: 0.18;
+  stroke-dasharray: 4 6;
+}
+.ct-line {
+  fill: none;
+  stroke: #3572a5;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.ct-point {
+  stroke: #ffffff;
+  stroke-width: 6;
+  stroke-linecap: round;
+}
+.ct-area {
+  fill: #3572a5;
+  fill-opacity: 0.22;
+}
+.ct-bar {
+  stroke: #ffffff;
+  stroke-width: 24;
+  stroke-linecap: butt;
+}
+.ct-point.graph-point-empty, .ct-bar.graph-point-empty {
+  opacity: 0.28;
+}
+.graph-title {
+  font-family: &#039;Segoe UI&#039;, Ubuntu, sans-serif;
+}
+.ct-line {
+  stroke-dasharray: 5000;
+  stroke-dashoffset: 5000;
+  animation: activity-line-draw 6000ms ease-in-out forwards;
+}
+.ct-point {
+  animation: activity-mark-appear 700ms ease-out both;
+}
+@keyframes activity-line-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes ct-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes activity-mark-appear {
+  from {
+    opacity: 0.15;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ct-line,
+  .ct-point,
+  .ct-bar {
+    animation: none;
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}</style></svg>
